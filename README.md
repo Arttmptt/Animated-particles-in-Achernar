@@ -1,5 +1,6 @@
 # Animated-particles-in-Achernar
 Если открыть приложение Achernar, то можно заметить анимированные партиклы на фоне, вот здесь их реализация.
+![Скриншот](https://github.com/Lord-code/Animated-particles-in-Achernar/blob/master/screenshots/Sreenshot01_1920x1080__SceneIDMain%20menu228551.png "Примерно так оно выглядит, только постоянно рандомизируется и в движении.")
 
   SpawnParticle.cs спавнит партиклы. Он должен находится где-угодно на сцене.
   
