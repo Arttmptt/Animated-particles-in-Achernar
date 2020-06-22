@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
 public class SpawnParticle : MonoBehaviour
@@ -14,7 +14,7 @@ public class SpawnParticle : MonoBehaviour
         // Fast particles in move
         for (int i = 0; i < 11; i++)
         {
-            StartCoroutine (Spawn ());
+            StartCoroutine (SpawnNonStop ());
         }
     }
 
@@ -38,7 +38,7 @@ public class SpawnParticle : MonoBehaviour
         yield break;
     }
 
-    IEnumerator Spawn () {
+    IEnumerator SpawnNonStop () {
         Vector3 pos = new Vector3 (0, 0, 0);
         float randScale = 0;
 
